@@ -1,6 +1,11 @@
 > **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).
 
 # Skills
+
+> **Reference snapshot:** This checkout retains Anthropic's skills at upstream commit [`69c0b1a`](https://github.com/anthropics/skills/commit/69c0b1a0674149f27b61b2635f935524b6add202) (December 20, 2025). Local documentation additions do not imply authorship of the inherited skills. See [provenance, mixed-license boundaries, and setup notes](docs/REFERENCE.md) before reuse. The installation commands below target **Anthropic's upstream marketplace**, not this reference checkout.
+>
+> [Editable provenance / skill-loading diagram](docs/provenance.excalidraw) · [Diagram preview](docs/provenance.svg)
+
 Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.
 
 For more information, check out:
